@@ -36,6 +36,24 @@ Route::get('/armada/bus-standar', [BusStandarController::class, 'index'])->name(
 Route::get('/armada/bus-luxury', [BusLuxuryController::class, 'index'])->name('bus.luxury');
 Route::get('/armada/bus-vip', [BusVIPController::class, 'index'])->name('bus.vip');
 
+
+// Halaman Armada Detail Bus Luxury
+Route::get('/armada/bus-luxury/hi-ace-premio-luxury', [BusLuxuryController::class, 'hiAcePremioLuxury'])->name('bus.luxury.hiace');
+Route::get('/armada/bus-luxury/big-bus-45seat', [BusLuxuryController::class, 'bigBus45Seat'])->name('bus.luxury.bigbus');
+
+// Halaman Armada Detail Bus VIP
+Route::get('/armada/bus-vip/big-bus-vip-28-30seat', [BusVIPController::class, 'bigBusVip28_30Seat'])->name('bus.vip.bigbus-28-30seat');
+Route::get('armada/bus-vip/big-bus-18-pax', [BusVIPController::class, 'bigBusVip18Pax'])->name('bus.vip.bigbus-18-pax');
+
+// Halaman Armada Detail Bus Standar
+Route::get('/armada/bus-standar/medium-bus-35-seat', [BusStandarController::class, 'mediumBus35Seat'])->name('bus.standar.medium-bus-35seat');
+Route::get('/armada/bus-standar/medium-bus-31-seat', [BusStandarController::class, 'mediumBus31Seat'])->name('bus.standar.medium-bus-31seat');
+Route::get('armada/bus-standar/big-bus-50-seat', [BusStandarController::class, 'bigBus50Seat'])->name('bus.standar.big-bus-50-seat');
+Route::get('armada/bus-standar/big-bus-59-seat', [BusStandarController::class, 'bigBus59Seat'])->name('bus.standar.big-bus-59-seat');
+Route::get('armada/bus-standar/hi-ace-standar', [BusStandarController::class, 'hiAceStandar'])->name('bus.standar.hi-ace-standar');
+Route::get('armada/bus-standar/elf-standar-18-seat', [BusStandarController::class, 'elfStandar18Seat'])->name('bus.standar.elf-standar-18-seat');
+
+
 // Halaman Kebijakan
 Route::get('/kebijakan/kebijakan-sewa', [KebijakanPrivasiController::class, 'index'])->name('kebijakan.sewa');
 Route::get('/kebijakan/perizinan-sewa', [PerizinanSewaController::class, 'index'])->name('perizinan.sewa');

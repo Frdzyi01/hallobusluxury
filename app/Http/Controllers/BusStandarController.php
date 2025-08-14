@@ -63,4 +63,35 @@ class BusStandarController extends Controller
     {
         //
     }
+
+    public function mediumBus35Seat()
+    {
+        return view('armada.bus-standar.detail-medium-bus-35-seat');
+    }
+    
+    public function mediumBus31Seat()
+    {
+        return view('armada.bus-standar.detail-medium-bus-31-seat');
+    }
+
+    public function bigBus50Seat()
+    {
+        return view('armada.bus-standar.detail-big-bus-50-seat');
+    }
+
+    public function bigBus59Seat()
+    {
+        return view('armada.bus-standar.detail-big-bus-59-seat');
+    }
+
+    public function hiAceStandar()
+    {
+        return view('armada.bus-standar.detail-hi-ace-standar');
+    }
+
+    public function elfStandar18Seat()
+    {
+        return view('armada.bus-standar.detail-elf-standar-18-seat');
+    }
+
 }

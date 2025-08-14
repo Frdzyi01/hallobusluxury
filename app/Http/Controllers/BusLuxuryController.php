@@ -64,4 +64,14 @@ class BusLuxuryController extends Controller
     {
         //
     }
-}
+
+    public function bigBus45Seat()
+    {
+        
+        return view('armada.bus-luxury.detail-big-bus-45seat');
+    }
+    public function hiAcePremioLuxury()
+    {
+        return view('armada.bus-luxury.detail-hi-ace-premio-luxury');
+    }
+ }

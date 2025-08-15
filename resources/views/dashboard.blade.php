@@ -192,7 +192,7 @@
                                         <a href="{{ route('bus.vip') }}" class="theme-btn"
                                             style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                        <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
                                             class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
@@ -224,7 +224,7 @@
                                         <a href="{{ route('bus.standar') }}" class="theme-btn"
                                             style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                        <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
                                             class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
@@ -256,7 +256,7 @@
                                         <a href="{{ route('bus.luxury') }}" class="theme-btn"
                                             style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                        <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
                                             class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
@@ -344,7 +344,7 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
                                         PESAN BUS STANDAR
@@ -371,7 +371,7 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20luxury.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20luxury.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
                                         PESAN BUS LUXURY
@@ -398,7 +398,7 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20vip.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20vip.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
                                         PESAN BUS VIP
@@ -797,7 +797,7 @@
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
-                            <div class="widget instagram">
+                            {{-- <div class="widget instagram">
                                 <div class="widget-title">
                                     <h3>Galeri Kami:</h3>
                                 </div>
@@ -827,7 +827,7 @@
                                             alt="Testimoni" />
                                     </li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

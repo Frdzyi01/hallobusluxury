@@ -41,7 +41,7 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20big%20bus%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20big%20bus%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                         display: inline-block;
                                         padding: 8px 15px;
@@ -85,7 +85,7 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Hi-Ace%20Premio%20Luxury%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Hi-Ace%20Premio%20Luxury%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                         display: inline-block;
                                         padding: 8px 15px;

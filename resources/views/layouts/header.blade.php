@@ -21,7 +21,7 @@
                     <div class="col col-lg-9 col-12">
                         <div class="contact-intro">
                             <ul>
-                                <li><span>Call Us:</span>00 568 467 852</li>
+                                <li><span>Call Us:</span>(62) 812-9015-3576</li>
                                 <!-- <li><span>Email Us:</span> putratidartrans@gmail.com</li> -->
                                 <li>
                                     <span>Address:</span> Jl. Akses Tol Cimanggis - Cikeas No.
@@ -130,7 +130,7 @@
                                 </div>
 
                                 <div class="close-form">
-                                    <a class="header-theme-btn" href="{{('/kontak')}}">HUBUNGI KAMI</a>
+                                    <a class="header-theme-btn" href="{{ '/kontak' }}">HUBUNGI KAMI</a>
                                 </div>
                             </div>
                         </div>

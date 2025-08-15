@@ -42,7 +42,7 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="wa.me/6281219110199"
+                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20Bus%20Vip%20(28-30Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                                 display: inline-block;
                                                 padding: 8px 15px;
@@ -89,7 +89,7 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="wa.me/6281219110199"
+                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20Bus%20(18Pax).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                                 display: inline-block;
                                                 padding: 8px 15px;

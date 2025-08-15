@@ -189,9 +189,11 @@
                                     <div class="clearfix"></div>
                                     <div data-swiper-parallax="500" class="slide-btns"
                                         style="display: flex; justify-content: center; gap: 15px">
-                                        <a href="#" class="theme-btn" style="margin-right: 7px">Cek
+                                        <a href="{{ route('bus.vip') }}" class="theme-btn"
+                                            style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="#" class="theme-btn" style="margin-left: 7px">Pesan
+                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                            class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
                                 </div>
@@ -219,9 +221,11 @@
                                     <div class="clearfix"></div>
                                     <div data-swiper-parallax="500" class="slide-btns"
                                         style="display: flex; justify-content: center; gap: 15px">
-                                        <a href="#" class="theme-btn" style="margin-right: 7px">Cek
+                                        <a href="{{ route('bus.standar') }}" class="theme-btn"
+                                            style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="#" class="theme-btn" style="margin-left: 7px">Pesan
+                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                            class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
                                 </div>
@@ -249,9 +253,11 @@
                                     <div class="clearfix"></div>
                                     <div data-swiper-parallax="500" class="slide-btns"
                                         style="display: flex; justify-content: center; gap: 15px">
-                                        <a href="#" class="theme-btn" style="margin-right: 7px">Cek
+                                        <a href="{{ route('bus.luxury') }}" class="theme-btn"
+                                            style="margin-right: 7px">Cek
                                             Kendaraan</a>
-                                        <a href="#" class="theme-btn" style="margin-left: 7px">Pesan
+                                        <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus"
+                                            class="theme-btn" style="margin-left: 7px">Pesan
                                             Sekarang</a>
                                     </div>
                                 </div>

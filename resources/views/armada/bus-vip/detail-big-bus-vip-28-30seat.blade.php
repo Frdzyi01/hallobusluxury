@@ -100,9 +100,10 @@
                                            <input id="product-count" type="text" value="1" name="product-count" />
                                        </div>
                                        <div>
-                                           <button type="submit" class="theme-btn">
+                                           <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20Bus%20Vip%20(28-30Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                               class="theme-btn" role="button" aria-label="Pesan Sekarang via WhatsApp">
                                                Pesan Sekarang
-                                           </button>
+                                           </a>
                                        </div>
                                        <div>
                                            <button class="theme-btn heart-btn">

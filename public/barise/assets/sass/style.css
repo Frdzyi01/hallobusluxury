@@ -1304,6 +1304,7 @@ img {
 }
 @media (max-width: 991px) {
   .topbar {
+    display: none;
     text-align: center;
     padding: 0;
   }

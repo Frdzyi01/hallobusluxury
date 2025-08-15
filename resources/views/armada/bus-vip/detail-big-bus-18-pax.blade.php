@@ -14,42 +14,54 @@
                        <div class="shop-single-slider">
                            <div class="slider-for">
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/1.png')}}" alt="Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/1.png') }}"
+                                       alt="Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/2.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/2.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/3.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/3.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/4.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/4.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/5.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/5.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/6.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/6.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                            </div>
                            <div class="slider-nav">
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/1.png')}}" alt="Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/1.png') }}"
+                                       alt="Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/2.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/2.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/3.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/3.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/4.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/4.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/5.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/5.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                                <div>
-                                   <img src="{{asset('barise/assets/images/BigbusluxuryVVIP18pax/6.png')}}" alt="Interior Bus" />
+                                   <img src="{{ asset('barise/assets/images/BigbusluxuryVVIP18pax/6.png') }}"
+                                       alt="Interior Bus" />
                                </div>
                            </div>
                        </div>
@@ -68,7 +80,7 @@
                                </div>
                                <span>(12 customer reviews)</span>
                            </div>
-                          
+
                            <p>
                                Big Bus VIP menawarkan pengalaman bepergian eksklusif dengan
                                kapasitas terbatas 28-30 seat untuk kenyamanan maksimal.
@@ -92,9 +104,10 @@
                                            <input id="product-count" type="text" value="1" name="product-count" />
                                        </div>
                                        <div>
-                                           <button type="submit" class="theme-btn">
+                                           <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20Bus%20(18Pax).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                               class="theme-btn" role="button" aria-label="Pesan Sekarang via WhatsApp">
                                                Pesan Sekarang
-                                           </button>
+                                           </a>
                                        </div>
                                        <div>
                                            <button class="theme-btn heart-btn">

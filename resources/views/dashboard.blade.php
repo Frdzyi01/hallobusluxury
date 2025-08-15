@@ -52,7 +52,7 @@
                                     <li>
                                         <img src="{{ asset('barise/assets/images/phone-call.png') }}"
                                             alt="" />(62)
-                                        812-1911-0199
+                                        812-9015-3576
                                     </li>
                                     <!-- <li>
                       <img
@@ -135,13 +135,15 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="{{ 'tentangkami' }}">Partner</a></li>
+                                        <li><a href="{{ '/mitra/partner' }}">Partner</a></li>
 
                                         <li class="menu-item-has-children">
                                             <a href="#">Kebijakan</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Kebijakan Privasi</a></li>
-                                                <li><a href="#">Perizinan Sewa</a></li>
+                                                <li> <a href="{{ '/kebijakan/kebijakan-sewa' }}">Kebijakan Privasi</a>
+                                                </li>
+                                                <li><a href="{{ '/kebijakan/perizinan-sewa' }}">Perizinan Sewa</a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -151,7 +153,7 @@
                             <div class="col-lg-3 col-md-3 col-3">
                                 <div class="header-right">
                                     <div class="close-form">
-                                        <a class="theme-btn" href="#">HUBUNGI KAMI</a>
+                                        <a class="theme-btn" href="{{ '/kontak' }}">HUBUNGI KAMI</a>
                                     </div>
                                 </div>
                             </div>
@@ -276,7 +278,7 @@
                     <div class="fun-fact-card">
                         <div class="info">
                             <h3>
-                                <span class="odometer" data-count="67">00</span>
+                                <span class="odometer" data-count="15">00</span>
                                 <i class="ti-plus"></i>
                             </h3>
                         </div>
@@ -291,19 +293,14 @@
                             <h2>Mewujudkan Perjalanan Mewah Impian Anda</h2>
                         </div>
                         <p>
-                            HalloBusLuxury berkomitmen memberikan pengalaman perjalanan
+                            Hallo Bus Luxury berkomitmen memberikan pengalaman perjalanan
                             terbaik dengan armada bus mewah berkualitas tinggi. Dari
                             perjalanan bisnis hingga wisata eksklusif, kami siap melayani
                             Anda.
                             <a href="{{ route('tentangkami') }}">Selengkapnya</a>
                         </p>
                     </div>
-                    <div class="about-video">
-                        <div class="video-holder">
-                            <a href="https://www.youtube.com/embed/7Jv48RQ_2gk" class="video-btn" data-type="iframe"
-                                tabindex="0"><i class="ti-control-plays"></i></a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -341,9 +338,10 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/6281219110199" class="theme-btn">
+                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                        BOOKING NOW
+                                        PESAN BUS STANDAR
                                     </a>
                                 </div>
                             </div>
@@ -367,9 +365,10 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/6281219110199" class="theme-btn">
+                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20luxury.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                        BOOKING NOW
+                                        PESAN BUS LUXURY
                                     </a>
                                 </div>
                             </div>
@@ -393,9 +392,10 @@
                                         <i class="ti-eye" style="margin-right: 13px"></i>
                                         LIHAT DETAIL
                                     </a>
-                                    <a href="https://wa.me/6281219110199" class="theme-btn">
+                                    <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20vip.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        class="theme-btn">
                                         <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                        BOOKING NOW
+                                        PESAN BUS VIP
                                     </a>
                                 </div>
                             </div>
@@ -691,28 +691,30 @@
                             <div class="office-info">
                                 <div class="info-item">
                                     <i class="ti-location-pin"></i>
-                                    <p>Jl. Contoh No. 123, Kota Baru, Indonesia</p>
+                                    <p> Jl. Akses Tol Cimanggis Blk. H No.73, RT.002/RW.010, Leuwinanggung, Kec. Tapos,
+                                        Kota Depok, Jawa Barat 16456</p>
                                 </div>
                                 <div class="info-item">
                                     <i class="ti-email"></i>
-                                    <p>info@barise.com</p>
+                                    <p>putratidartrans@gmail.com</p>
                                 </div>
                                 <div class="info-item">
                                     <i class="ti-mobile"></i>
-                                    <p>+62 123 4567 890</p>
+                                    <p>+62 812-9015-3576</p>
                                 </div>
                             </div>
-                            <a href="#" class="theme-btn">Hubungi Kami</a>
+                            <a href="{{ '/kontak' }}" class="theme-btn">Hubungi Kami</a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-12">
                         <div class="agents-right">
                             <div class="map-container">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613506394!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTEnNDEuMSJTIDEwNsKwNDknMTQuMyJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
-                                    width="100%" height="400" style="border: 0" allowfullscreen=""
-                                    loading="lazy">
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.929231607518!2d106.91270847590786!3d-6.403119293587602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed6250bfcf57%3A0x3fe496ff3c77daf9!2sBus%20Putra%20Tidar!5e0!3m2!1sid!2sid!4v1755241782706!5m2!1sid!2sid"
+                                    width="100%" height="400" style="border: 0"
+                                    allowfullscreen="no-referrer-when-downgrade" loading="lazy">
                                 </iframe>
+
                             </div>
                         </div>
                     </div>

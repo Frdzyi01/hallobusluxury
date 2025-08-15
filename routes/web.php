@@ -8,6 +8,7 @@ use App\Http\Controllers\BusVIPController;
 use App\Http\Controllers\KebijakanPrivasiController;
 use App\Http\Controllers\PerizinanSewaController;
 use App\Http\Controllers\KontakController;
+use App\Http\Controllers\PartnerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,4 +59,5 @@ Route::get('armada/bus-standar/elf-standar-18-seat', [BusStandarController::clas
 Route::get('/kebijakan/kebijakan-sewa', [KebijakanPrivasiController::class, 'index'])->name('kebijakan.sewa');
 Route::get('/kebijakan/perizinan-sewa', [PerizinanSewaController::class, 'index'])->name('perizinan.sewa');
 
-
+// Halaman Mitra Kami
+Route::get('/mitra/partner', [PartnerController::class, 'index'])->name('mitra.partner');

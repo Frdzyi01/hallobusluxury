@@ -227,9 +227,10 @@
                                     <i class="ti-eye" style="margin-right: 13px"></i>
                                     LIHAT DETAIL
                                 </a>
-                                <a href="https://wa.me/6281219110199" class="theme-btn">
+                                <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    class="theme-btn">
                                     <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                    BOOKING NOW
+                                    PESAN BUS STANDAR
                                 </a>
                             </div>
                         </div>
@@ -253,9 +254,10 @@
                                     <i class="ti-eye" style="margin-right: 13px"></i>
                                     LIHAT DETAIL
                                 </a>
-                                <a href="https://wa.me/6281219110199" class="theme-btn">
+                                <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20luxury.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    class="theme-btn">
                                     <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                    BOOKING NOW
+                                    PESAN BUS LUXURY
                                 </a>
                             </div>
                         </div>
@@ -279,9 +281,10 @@
                                     <i class="ti-eye" style="margin-right: 13px"></i>
                                     LIHAT DETAIL
                                 </a>
-                                <a href="https://wa.me/6281219110199" class="theme-btn">
+                                <a href="https://wa.me/621290153576?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20vip.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    class="theme-btn">
                                     <i class="fab fa-whatsapp" style="font-size: 1.2em"></i>
-                                    BOOKING NOW
+                                    PESAN BUS VIP
                                 </a>
                             </div>
                         </div>

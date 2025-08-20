@@ -74,4 +74,12 @@ class BusVIPController extends Controller
     {
         return view('armada.bus-vip.detail-big-bus-18-pax');
     }
+    public function bigbusVip21SeatKonfigurasi2_1()
+    {
+        return view('armada.bus-vip.detail-Bigbus-VIP-21Seat-Konfigurasi2-1');
+    }
+    public function big_Bus_Vip_28_30Seat()
+    {
+        return view('armada.bus-vip.detail-Bigbus-VIP-28-30seat');
+    }
 }

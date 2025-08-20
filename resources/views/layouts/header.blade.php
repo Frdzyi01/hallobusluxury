@@ -8,7 +8,8 @@
                 <div class="loader-line-mask">
                     <div class="loader-line"></div>
                 </div>
-                <img src="{{ asset('barise/assets/images/preloader.png') }}" alt="" />
+                <img src="{{ asset('barise/assets/images/bus/logo/logo-removebg-preview.png') }}"
+                    style="width: 100px; height: 45px;" alt="" />
             </div>
         </div>
     </div>
@@ -21,7 +22,7 @@
                     <div class="col col-lg-9 col-12">
                         <div class="contact-intro">
                             <ul>
-                                <li><span>Call Us:</span>(62) 812-9015-3576</li>
+                                <li><span>Call Us:</span>(62) 811-1183-0302</li>
                                 <!-- <li><span>Email Us:</span> putratidartrans@gmail.com</li> -->
                                 <li>
                                     <span>Address:</span> Jl. Akses Tol Cimanggis - Cikeas No.

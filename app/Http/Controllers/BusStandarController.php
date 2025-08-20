@@ -94,4 +94,13 @@ class BusStandarController extends Controller
         return view('armada.bus-standar.detail-elf-standar-18-seat');
     }
 
+    public function bigBus50Seat22()
+    {
+        return view('armada.bus-standar.detail-big-bus-50-seat-2-2');
+    }
+
+    public function bigBus42_45Seat()
+    {
+        return view('armada.bus-standar.detail-big-bus-42-45-seat');
+    }
 }

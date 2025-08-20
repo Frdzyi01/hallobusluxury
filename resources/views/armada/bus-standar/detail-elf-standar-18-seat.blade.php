@@ -127,7 +127,7 @@
                         <div class="tg-btm">
                             <p><span>Termasuk:</span> PPN & Asuransi Dasar</p>
                             <p>
-                                <span>Hubungi:</span> 0812-3456-7890 (Admin Andi Wijaya)
+                                <span>Hubungi:</span> 0811-1183-0302 (Admin Nuryanto)
                             </p>
                         </div>
                     </div>

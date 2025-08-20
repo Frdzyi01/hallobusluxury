@@ -49,7 +49,7 @@
                                     </div>
                                     <div class="office-info-text">
                                         <h2>Call Now</h2>
-                                        <p>+62 812-9015-3576</p>
+                                        <p>+62 811-1183-0302</p>
                                     </div>
                                 </div>
                             </div>

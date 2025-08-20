@@ -14,9 +14,9 @@
                 <div class="col-lg-6 col-12">
                     <div class="about-left-wrap">
                         <div class="about-left-image">
-                            <img src="{{ asset('barise/assets/images/about.jpg') }}" alt="Bus Mewah HalloBusLuxury" />
+                            <img src="{{ asset('barise/assets/images/about.png') }}" alt="Bus Mewah HalloBusLuxury" />
                         </div>
-                        <h2 class="title">Beroperasi Sejak 2010</h2>
+                        <h2 class="title">Beroperasi Sejak 2015</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -319,7 +319,7 @@
                             </div>
                             <div class="info-item">
                                 <i class="ti-mobile"></i>
-                                <p>+62 123 4567 890</p>
+                                <p>+62 811 1183 0302</p>
                             </div>
                         </div>
                         <a href="#" class="theme-btn">Hubungi Kami</a>

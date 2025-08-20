@@ -2,6 +2,7 @@
 
 @section('title', 'Bus Luxury - HalloBus Luxury')
 
+
 @section('Title-Head', 'Armada Kami')
 @section('Title-Sub', 'Bus Luxury')
 @section('content')

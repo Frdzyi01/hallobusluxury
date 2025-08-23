@@ -1,6 +1,15 @@
    @extends('layouts.app')
 
    @section('title', 'Detail Big Bus VIP 28-30 Seat - HalloBus Luxury')
+   @section('meta-description',
+       'Detail Big Bus VIP 28-30 Seat dengan fasilitas mewah, kapasitas optimal, dan layanan
+       profesional. Pesan sekarang untuk pengalaman perjalanan terbaik.')
+   @section('meta-keywords', 'hallobusluxury, bus mega citra, sewa bus jakarta, sewa bus bogor, sewa bus bekasi, sewa bus mewah, sewa
+       bus VIP,sewa bus Luxury, sewa bus standar, bus vip,bus standar, bus luxury, sewa bus jabodetabek, sewa bus luxury,
+       sewa bus, bus mewah, travel sewa bus, travel bus, sewa bus pariwisata, rental bus jakarta, sewa bus bandung, sewa bus
+       tangerang, sewa bus depok, sewa bus executive, sewa bus murah, sewa bus harian, sewa bus ac, sewa bus besar, sewa bus
+       medium, sewa bus untuk karyawan, sewa bus untuk wisata, sewa bus untuk wedding, sewa bus untuk airport, sewa bus
+       untuk ziarah, sewa bus untuk company outing, sewa bus untuk seminar, bus luxury jakarta, bus pariwisata jabodetabek')
 
    @section('Title-Head', 'Detail Armada Kami')
    @section('Title-Sub', 'Detail - Big Bus VIP 28-30 Seat')

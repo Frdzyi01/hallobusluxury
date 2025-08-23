@@ -112,7 +112,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a hrefroute="{{ 'bus.standar.big-bus-50-seat' }}">big Bus 50 Seat</a></h3>
+                                <h3><a href="{{ route('bus.standar.big-bus-50-seat') }}">big Bus 50 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas 50 seat dengan fasilitas lengkap
                                     termasuk AC dingin, reclining seat, LCD TV, dan bagasi
@@ -294,7 +294,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a hrefroute="{{ 'bus.standar.big-bus-50-seat-2-2' }}">Bigbus standar
+                                <h3> <a href="{{ route('bus.standar.big-bus-50-seat-2-2') }}">Bigbus standar
                                         50 seat ( 2-2 )</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas 50 seat dengan fasilitas lengkap
@@ -347,7 +347,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a hrefroute="{{ 'bus.standar.detail-big-bus-42-45-seat' }}">Bigbus
+                                <h3> <a href="{{ route('bus.standar.detail-big-bus-42-45-seat') }}">Bigbus
                                         42-45 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas

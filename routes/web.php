@@ -9,6 +9,7 @@ use App\Http\Controllers\KebijakanPrivasiController;
 use App\Http\Controllers\PerizinanSewaController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\listpostandarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,3 +68,24 @@ Route::get('/kebijakan/perizinan-sewa', [PerizinanSewaController::class, 'index'
 
 // Halaman Mitra Kami
 Route::get('/mitra/partner', [PartnerController::class, 'index'])->name('mitra.partner');
+
+// Halaman List Po Standar
+Route::get('list-po/po-bus-standar/medium-bus-35-seat', [listpostandarController::class, 'listPoMediumBus35Seat'])->name('list-po.po-bus-standar.medium-bus-35-seat');
+Route::get('list-po/po-bus-standar/medium-bus-31-seat', [listpostandarController::class, 'listPoMediumBus31Seat'])->name('list-po.po-bus-standar.medium-bus-31-seat');
+Route::get('list-po/po-bus-standar/big-bus-50-seat', [listpostandarController::class, 'bigBus50Seat'])->name('list-po.po-bus-standar.big-bus-50-seat');
+Route::get('list-po/po-bus-standar/big-bus-59-seat', [listpostandarController::class, 'bigBus59Seat'])->name('list-po.po-bus-standar.big-bus-59-seat');
+Route::get('list-po/po-bus-standar/hi-ace-standar', [listpostandarController::class, 'hiAceStandar'])->name('list-po.po-bus-standar.hi-ace-standar');
+Route::get('list-po/po-bus-standar/elf-standar-18-seat', [listpostandarController::class, 'elfStandar18Seat'])->name('list-po.po-bus-standar.elf-standar-18-seat');
+Route::get('list-po/po-bus-standar/big-bus-50-seat-2-2', [listpostandarController::class, 'bigBus50Seat22'])->name('list-po.po-bus-standar.big-bus-50-seat-2-2');
+Route::get('list-po/po-bus-standar/big-bus-42-45-seat', [listpostandarController::class, 'bigBus42_45Seat'])->name('list-po.po-bus-standar.big-bus-42-45-seat');
+
+//detail bus standar
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-sinar-jaya', [listpostandarController::class, 'detailMediumBus31SeatSinarJaya'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-sinar-jaya');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-big-bird', [listpostandarController::class, 'detailMediumBus31SeatBigBird'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-big-bird');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-bhaladika', [listpostandarController::class, 'detailMediumBus31SeatBhaladika'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bhaladika');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-white-horse', [listpostandarController::class, 'detailMediumBus31SeatWhiteHorse'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-white-horse');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-blue-star', [listpostandarController::class, 'detailMediumBus31SeatBusBlueStar'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-blue-star');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-starbus', [listpostandarController::class, 'detailMediumBus31SeatStarbus'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-starbus');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-bin-ilyas', [listpostandarController::class, 'detailMediumBus31SeatBinIlyas'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bin-ilyas');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-putra-tidar', [listpostandarController::class, 'detailMediumBus31SeatPutraTidar'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-putra-tidar');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-bus-rejeki-gemilang', [listpostandarController::class, 'detailMediumBus31SeatBusRejekiGemilang'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bus-rejeki-gemilang');

@@ -2905,9 +2905,9 @@ img {
     max-width: 555px;
   }
 }
-.wpo-hero-slider .slide-title h2,
-.static-hero .slide-title h2,
-.wpo-hero-slider-s2 .slide-title h2 {
+.wpo-hero-slider .slide-title h1,
+.static-hero .slide-title h1,
+.wpo-hero-slider-s2 .slide-title h1 {
   font-size: 70px;
   font-weight: 900;
   line-height: 90px;
@@ -2915,26 +2915,26 @@ img {
   color: #fff;
 }
 @media (max-width: 1199px) {
-  .wpo-hero-slider .slide-title h2,
-  .static-hero .slide-title h2,
-  .wpo-hero-slider-s2 .slide-title h2 {
+  .wpo-hero-slider .slide-title h1,
+  .static-hero .slide-title h1,
+  .wpo-hero-slider-s2 .slide-title h1 {
     font-size: 50px;
     font-size: 3.3333333333rem;
   }
 }
 @media (max-width: 991px) {
-  .wpo-hero-slider .slide-title h2,
-  .static-hero .slide-title h2,
-  .wpo-hero-slider-s2 .slide-title h2 {
+  .wpo-hero-slider .slide-title h1,
+  .static-hero .slide-title h1,
+  .wpo-hero-slider-s2 .slide-title h1 {
     font-size: 40px;
     font-size: 2.6666666667rem;
     line-height: 55px;
   }
 }
 @media (max-width: 767px) {
-  .wpo-hero-slider .slide-title h2,
-  .static-hero .slide-title h2,
-  .wpo-hero-slider-s2 .slide-title h2 {
+  .wpo-hero-slider .slide-title h1,
+  .static-hero .slide-title h1,
+  .wpo-hero-slider-s2 .slide-title h1 {
     font-size: 30px;
     font-size: 2rem;
     line-height: 36px;

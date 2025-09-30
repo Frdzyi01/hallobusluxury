@@ -11,8 +11,10 @@
     <title>@yield('title', 'Hallo Bus Luxury - Sewa Bus Mewah Terbaik di Jabodetabek')</title>
 
     <!-- Meta Tags Default (dari app.blade.php) -->
-    <meta name="description" content= "Hallo Bus Luxury - Penyedia jasa sewa bus mewah terbaik di Jakarta, Bogor, Bekasi & Jabodetabek. Layanan sewa bus luxury dengan armada terbaru dan pelayanan profesional." />
-    <meta name="keywords" content= "hallobusluxury, sewa bus jakarta, sewa bus bogor, sewa bus bekasi, sewa bus mewah, sewa bus VIP,sewa bus Luxury, sewa bus standar, bus vip,bus standar, bus luxury, sewa bus jabodetabek, sewa bus luxury, sewa bus, bus mewah, travel sewa bus, travel bus, sewa bus pariwisata, rental bus jakarta, sewa bus bandung, sewa bus tangerang, sewa bus depok, sewa bus executive, sewa bus murah, sewa bus harian, sewa bus ac, sewa bus besar, sewa bus medium, sewa bus untuk karyawan, sewa bus untuk wisata, sewa bus untuk wedding, sewa bus untuk airport, sewa bus untuk ziarah, sewa bus untuk company outing, sewa bus untuk seminar, bus luxury jakarta, bus pariwisata jabodetabek" />
+    <meta name="description"
+        content= "Sewa Bus Luxury Jakarta, Bogor, Bekasi & Jabodetabek. Armada terbaru, pelayanan profesional untuk perjalanan mewah dan nyaman." />
+    <meta name="keywords"
+        content= "hallobusluxury, sewa bus jakarta, sewa bus bogor, sewa bus bekasi, sewa bus mewah, sewa bus VIP,sewa bus Luxury, sewa bus standar, bus vip,bus standar, bus luxury, sewa bus jabodetabek, sewa bus luxury, sewa bus, bus mewah, travel sewa bus, travel bus, sewa bus pariwisata, rental bus jakarta, sewa bus bandung, sewa bus tangerang, sewa bus depok, sewa bus executive, sewa bus murah, sewa bus harian, sewa bus ac, sewa bus besar, sewa bus medium, sewa bus untuk karyawan, sewa bus untuk wisata, sewa bus untuk wedding, sewa bus untuk airport, sewa bus untuk ziarah, sewa bus untuk company outing, sewa bus untuk seminar, bus luxury jakarta, bus pariwisata jabodetabek" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Indonesian" />
     <meta name="distribution" content="global" />
@@ -52,7 +54,7 @@
     </noscript>
 
     <!-- Combined and minified CSS -->
-    <title>@yield('title', 'Hallo Bus Luxury - Sewa Bus Mewah Terbaik di Jabodetabek')</title>
+    
     <link href="{{ asset('barise/assets/css/themify-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('barise/assets/css/flaticon.css') }}" rel="stylesheet" />
     <link href="{{ asset('barise/assets/css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -211,7 +213,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ '/mitra/partner' }}">Partner</a></li>
+                                    <li
+                                    ><a href="{{ '/mitra/partner' }}">Partner</a></li>
 
                                     <li class="menu-item-has-children">
                                         <a href="#">Kebijakan</a>
@@ -252,9 +255,9 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                 <div data-swiper-parallax="300" class="slide-title">
-                                    <h2 style="font-size: 30px !important; margin-bottom: -10px">
+                                    <h1 style="font-size: 30px !important; margin-bottom: 5px; color: white;">
                                         PT. CAHAYA PUTRA TIDAR
-                                    </h2>
+                                    </h1>
                                     <h2>
                                         Bus Mewah
                                         <br />
@@ -284,9 +287,9 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                 <div data-swiper-parallax="300" class="slide-title">
-                                    <h2 style="font-size: 30px !important; margin-bottom: -10px">
+                                    <h1 style="font-size: 30px !important; margin-bottom: 5px; color: white;">
                                         PT. CAHAYA PUTRA TIDAR
-                                    </h2>
+                                    </h1>
                                     <h2>
                                         Pilihan Tepat <br />
                                         <span>Mewah, Nyaman</span> <br />
@@ -316,9 +319,9 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                 <div data-swiper-parallax="300" class="slide-title">
-                                    <h2 style="font-size: 30px !important; margin-bottom: -10px">
+                                    <h1 style="font-size: 30px !important; margin-bottom: 5px; color: white;">
                                         PT. CAHAYA PUTRA TIDAR
-                                    </h2>
+                                    </h1>
                                     <h2>
                                         Nikmati<br />
                                         <span>Mewah Keren</span><br />
@@ -417,7 +420,7 @@
                                 </ul>
                                 <a href="{{ route('bus.standar') }}" class="theme-btn">
                                     <i class="ti-eye" style="margin-right: 13px"></i>
-                                    LIHAT DETAIL
+                                    PILIHAN LAIN
                                 </a>
                                 <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20bus%20standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                     class="theme-btn">
@@ -928,3 +931,4 @@
 </body>
 
 </html>
+ 

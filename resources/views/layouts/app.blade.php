@@ -5,14 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Hallo Bus Luxury" />
-
+    
     <!-- Primary Meta Tags -->
     <title>@yield('title', 'Hallo Bus Luxury - Sewa Bus Mewah Terbaik di Jabodetabek')</title>
-
-    <!-- Meta Tags Default (dari app.blade.php) -->
-    <meta name="description" content="@yield('meta-description', 'Hallo Bus Luxury - Penyedia jasa sewa bus mewah terbaik di Jakarta, Bogor, Bekasi & Jabodetabek. Layanan sewa bus luxury dengan armada terbaru dan pelayanan profesional.')" />
+    <meta name="description" content="@yield('meta-description', 'Sewa Bus Luxury Jakarta, Bogor, Bekasi & Jabodetabek. Armada terbaru, pelayanan profesional untuk perjalanan mewah dan nyaman.')" />
     <meta name="keywords" content="@yield('meta-keywords', 'hallobusluxury, sewa bus jakarta, sewa bus bogor, sewa bus bekasi, sewa bus mewah, sewa bus VIP,sewa bus Luxury, sewa bus standar, bus vip,bus standar, bus luxury, sewa bus jabodetabek, sewa bus luxury, sewa bus, bus mewah, travel sewa bus, travel bus, sewa bus pariwisata, rental bus jakarta, sewa bus bandung, sewa bus tangerang, sewa bus depok, sewa bus executive, sewa bus murah, sewa bus harian, sewa bus ac, sewa bus besar, sewa bus medium, sewa bus untuk karyawan, sewa bus untuk wisata, sewa bus untuk wedding, sewa bus untuk airport, sewa bus untuk ziarah, sewa bus untuk company outing, sewa bus untuk seminar, bus luxury jakarta, bus pariwisata jabodetabek')" />
+    <meta name="author" content="Hallo Bus Luxury" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Indonesian" />
     <meta name="distribution" content="global" />
@@ -42,7 +40,10 @@
     <link rel="canonical" href="https://www.hallobusluxury.com" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('barise/assets/images/bus/logo/logo_black_to_white.png') }}" />
+    <link rel="icon" type="image/x-icon"
+        href="{{ asset('barise/assets/images/bus/logo/logo_black_to_white.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('barise/assets/images/bus/logo/logo_black_to_white.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('barise/assets/images/bus/logo/logo_black_to_white.png') }}">
 
     <!-- Preload critical resources -->
     <link rel="preload" href="{{ asset('barise/assets/css/bootstrap.min.css') }}" as="style"
@@ -52,7 +53,6 @@
     </noscript>
 
     <!-- Combined and minified CSS -->
-    <title>@yield('title', 'Hallo Bus Luxury - Sewa Bus Mewah Terbaik di Jabodetabek')</title>
     <link href="{{ asset('barise/assets/css/themify-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('barise/assets/css/flaticon.css') }}" rel="stylesheet" />
     <link href="{{ asset('barise/assets/css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -92,13 +92,13 @@
     }
     </script>
 
-
+    
 </head>
 
 <body>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/6281111830302" target="_blank" class="wa-float">
+    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Bus.%20Bisa%20diberi%20informasi%20lebih%20lanjut?" target="_blank" class="wa-float">
         <i class="fab fa-whatsapp"></i>
     </a>
 

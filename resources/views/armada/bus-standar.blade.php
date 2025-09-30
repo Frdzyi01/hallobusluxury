@@ -19,7 +19,8 @@
                                     style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">Medium Bus 35 Seat</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-standar.medium-bus-35-seat') }}">Medium Bus 35
+                                        Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -27,7 +28,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.medium-bus-35-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -38,22 +39,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%20(35Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Medium Bus 35 Seat
                                     </a>
                                 </div>
                             </div>
@@ -65,16 +51,17 @@
                             </div>
                             <div class="details">
                                 <h3>
-                                    <a href="{{ route('bus.standar.medium-bus-31seat') }}">Medium Bus 31 Seat</a>
+                                    <a href="{{ route('list-po.po-bus-standar.medium-bus-31-seat') }}">Medium Bus 31
+                                        Seat</a>
                                 </h3>
                                 <p class="deskripsi-bus">
-                                    Bus dengan kapasitas 35 seat yang nyaman, dilengkapi AC
+                                    Bus dengan kapasitas 31 seat yang nyaman, dilengkapi AC
                                     dingin, reclining seat, LCD TV, dan bagasi memadai.
                                     Terdapat APAR dan pemecah kaca untuk keamanan perjalanan.
                                     Ideal untuk grup kecil dengan kenyamanan optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-31seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.medium-bus-31-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -85,22 +72,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%20(31Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Medium Bus 31 Seat
                                     </a>
                                 </div>
                             </div>
@@ -112,7 +84,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.big-bus-50-seat') }}">big Bus 50 Seat</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-standar.big-bus-50-seat') }}">big Bus 50 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas 50 seat dengan fasilitas lengkap
                                     termasuk AC dingin, reclining seat, LCD TV, dan bagasi
@@ -121,7 +93,7 @@
                                     kenyamanan terjamin.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.big-bus-50-seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.big-bus-50-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -132,22 +104,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20bus%20(50Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Big Bus 50 Seat
                                     </a>
                                 </div>
                             </div>
@@ -158,7 +115,8 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.big-bus-59-seat') }}">Big Bus 59 Seat</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-standar.big-bus-59-seat') }}">big Bus 59 Seat</a>
+                                </h3>
                                 <p class="deskripsi-bus">
                                     Bus berkapasitas besar 59 seat dengan fasilitas lengkap
                                     meliputi AC dingin, reclining seat nyaman, LCD TV, dan
@@ -166,7 +124,7 @@
                                     pemecah kaca untuk standar keselamatan tinggi.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.big-bus-59-seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.big-bus-59-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -177,22 +135,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20bus%20(59Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Big Bus 59 Seat
                                     </a>
                                 </div>
                             </div>
@@ -203,7 +146,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.hi-ace-standar') }}">HI-Ace Standar</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-standar.hi-ace-standar') }}">HI-Ace Standar</a></h3>
                                 <p class="deskripsi-bus">
                                     Kendaraan kompak yang nyaman dengan AC dingin, seat empuk,
                                     dan bagasi memadai. Dilengkapi dengan APAR dan pemecah
@@ -211,7 +154,7 @@
                                     grup kecil dengan mobilitas tinggi.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.hi-ace-standar') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.hi-ace-standar') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -222,22 +165,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Hi-Ace%20Standar.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO HI-Ace Standar
                                     </a>
                                 </div>
                             </div>
@@ -248,7 +176,8 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.elf-standar-18-seat') }}">Elf Standar 18 Seat</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-standar.elf-standar-18-seat') }}">Elf Standar 18
+                                        Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Kendaraan kompak yang nyaman dengan AC dingin, seat empuk, Karoke, musik, TV android
                                     dan bagasi memadai. Dilengkapi dengan APAR dan pemecah
@@ -256,7 +185,7 @@
                                     grup kecil dengan mobilitas tinggi.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.elf-standar-18-seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.elf-standar-18-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -267,22 +196,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Elf%20Standar%20(18Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Elf Standar 18 Seat
                                     </a>
                                 </div>
                             </div>
@@ -294,7 +208,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3> <a href="{{ route('bus.standar.big-bus-50-seat-2-2') }}">Bigbus standar
+                                <h3> <a href="{{ route('list-po.po-bus-standar.big-bus-50-seat-2-2') }}">Bigbus standar
                                         50 seat ( 2-2 )</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas 50 seat dengan fasilitas lengkap
@@ -309,7 +223,7 @@
                                     kenyamanan terjamin.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.big-bus-50-seat-2-2') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.big-bus-50-seat-2-2') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -320,22 +234,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20bus%20(50Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> list PO Bigbus 50 Seat ( 2-2 )
                                     </a>
                                 </div>
                             </div>
@@ -347,7 +246,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3> <a href="{{ route('bus.standar.detail-big-bus-42-45-seat') }}">Bigbus
+                                <h3> <a href="{{ route('list-po.po-bus-standar.big-bus-42-45-seat') }}">Bigbus
                                         42-45 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus besar berkapasitas
@@ -365,7 +264,7 @@
                                     kenyamanan terjamin.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.detail-big-bus-42-45-seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.big-bus-42-45-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -376,22 +275,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
-                                    </a>
-
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Big%20bus%20(50Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                    display: inline-block;
-                                    padding: 8px 15px;
-                                    margin-left: 10px;
-                                    background: #a07f56;
-                                    color: white;
-                                    border-radius: 4px;
-                                    transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                        <i class="ti-eye"></i> List PO Bigbus 42-45 Seat
                                     </a>
                                 </div>
                             </div>

@@ -408,7 +408,7 @@
                                 <img src="{{ asset('barise/assets/images/bus-rejeki-gemilang/mediumbus-31seat.png') }}"
                                     alt="Bus Rejeki Gemilang 31 Seat" style="height: 280px; object-fit: cover" />
                             </div>
-                            <div class="details">
+                          Å  <div class="details">
                                 <h3>
                                     <a
                                         href="{{ route('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bus-rejeki-gemilang') }}">PO

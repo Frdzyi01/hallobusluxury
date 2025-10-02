@@ -7,7 +7,7 @@
 @section('Title-Sub', 'List List PO Medium 35 Seat')
 @section('content')
 
-<!-- start wpo-shop-section -->
+    <!-- start wpo-shop-section -->
     <section class="wpo-shop-section section-padding">
         <div class="container">
             <div class="row">
@@ -15,11 +15,13 @@
                     <div class="shop-grids clearfix">
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}" alt="PO Sinar Jaya - Medium Bus 35 Seat"
-                                    style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/bus-sinar-jaya/medium-bus-31.png') }}"
+                                    alt="PO Sinar Jaya - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Sinar Jaya - Medium Bus 35 Seat</a></h3>
+                                <h3><a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-sinar-jaya') }}">PO
+                                        Sinar Jaya - Medium Bus 35 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari PO Sinar Jaya dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -27,7 +29,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-sinar-jaya') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -60,21 +62,22 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Lorena - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/bus-medium-30seact/busmedium30seat.jpg') }}"
+                                    alt="PO Putra Tidar - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3>
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Lorena - Medium Bus 35 Seat</a>
-                                </h3>
+                                <h3> <a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-putra-tidar') }}">PO
+                                        Putra Tidar - Medium Bus 35
+                                        Seat</a></h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Lorena dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari PO Putra Tidar dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-putra-tidar') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -88,7 +91,7 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%2035%20Seat%20PO%20Lorena.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%2035%20Seat%20PO%20Handoyo.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -106,21 +109,25 @@
                             </div>
                         </div>
 
+
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Haryanto - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/bhaladika/mediumbus-31seat.png') }}"
+                                    alt="PO Bhaladika - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Haryanto - Medium Bus 35 Seat</a></h3>
+                                <h3><a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-bhaladika') }}">PO
+                                        Bhaladika - Medium Bus 35 
+                                        Seat</a></h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Haryanto dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari PO Bhaladika dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-bhaladika') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -153,19 +160,22 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Rosalia Indah - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/white-horse/mediumbus-31seat.webp') }}"
+                                    alt="PO White Horse - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Rosalia Indah - Medium Bus 35 Seat</a></h3>
+                                <h3><a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-white-horse') }}">PO
+                                        White Horse - Medium Bus 35
+                                        Seat</a></h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Rosalia Indah dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari PO White Horse dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-white-horse') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -198,19 +208,22 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Sumber Selamat - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/BusBlueStar/mediumbus-31seat.png') }}"
+                                    alt="Bus Blue Star - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Sumber Selamat - Medium Bus 35 Seat</a></h3>
+                                <h3><a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-blue-star') }}">Bus
+                                        Blue Star - Medium Bus
+                                        35 Seat</a></h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Sumber Selamat dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari Bus Blue Star dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-blue-star') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -243,19 +256,23 @@
                         </div>
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Eka - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/starbus/mediumbus-31seat.jpg') }}"
+                                    alt="Bus Starbus - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Eka - Medium Bus 35 Seat</a></h3>
+                                <h3><a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-starbus') }}">PO
+                                        Bus Starbus - Medium Bus 35 
+                                        Seat</a>
+                                </h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Eka dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari Bus Starbus dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-starbus') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -289,19 +306,22 @@
 
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Sugeng Rahayu - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/bus-bin-ilyas/mediumbus-31seat.png') }}"
+                                    alt="Bus Bin Ilyas - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3> <a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Sugeng Rahayu - Medium Bus 35 Seat</a></h3>
+                                <h3> <a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-bin-ilyas') }}">Bus
+                                        Bin Ilyas - Medium Bus
+                                        35 Seat</a></h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Sugeng Rahayu dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari Bus Bin Ilyas dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-bin-ilyas') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -335,19 +355,23 @@
 
                         <div class="grid">
                             <div class="img-holder">
-                                <img src="{{ asset('barise/assets/images/bus/pariwisata.png') }}"
-                                    alt="PO Handoyo - Medium Bus 35 Seat" style="height: 280px; object-fit: cover" />
+                                <img src="{{ asset('barise/assets/images/big-bird/medium-bus-31seat.png') }}"
+                                    alt="Bus Big Bird Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3> <a href="{{ route('bus.standar.medium-bus-35seat') }}">PO Handoyo - Medium Bus 35 Seat</a></h3>
+                                <h3>
+                                    <a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-big-bird') }}">Bus
+                                        Big Bird - Medium Bu 35 Seat</a>
+                                </h3>
                                 <p class="deskripsi-bus">
-                                    Bus nyaman dari PO Handoyo dengan fasilitas lengkap termasuk AC dingin,
+                                    Bus nyaman dari Rejeki Gemilang dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
                                     APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.standar.medium-bus-35seat') }}"
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-big-bird') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -361,7 +385,58 @@
                                         <i class="ti-eye"></i> Cek Detail
                                     </a>
 
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%2035%20Seat%20PO%20Handoyo.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%2035%20Seat%20PO%20Lorena.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        style="
+                                    display: inline-block;
+                                    padding: 8px 15px;
+                                    margin-left: 10px;
+                                    background: #a07f56;
+                                    color: white;
+                                    border-radius: 4px;
+                                    transition: all 0.3s ease;
+                                    "
+                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
+                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
+                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid">
+                            <div class="img-holder">
+                                <img src="{{ asset('barise/assets/images/bus-rejeki-gemilang/mediumbus-31seat.png') }}"
+                                    alt="Bus Rejeki Gemilang 35 Seat" style="height: 280px; object-fit: cover" />
+                            </div>
+                            <div class="details">
+                                <h3>
+                                    <a
+                                        href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-rejeki-gemilang') }}">PO
+                                        Rejeki Gemilang - Medium Bus
+                                        35 Seat</a>
+                                </h3>
+                                <p class="deskripsi-bus">
+                                    Bus nyaman dari Rejeki Gemilang dengan fasilitas lengkap termasuk AC dingin,
+                                    reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
+                                    APAR dan pemecah kaca untuk keselamatan penumpang. Cocok
+                                    untuk perjalanan jarak menengah dengan kapasitas optimal.
+                                </p>
+                                <div class="add-to-cart">
+                                    <a href="{{ route('list-po.po-bus-standar.detail-bus-35-seat.detail-medium-bus-35seat-rejeki-gemilang') }}"
+                                        style="
+                                    display: inline-block;
+                                    padding: 8px 15px;
+                                    background: #f5f5f5;
+                                    color: #333;
+                                    border-radius: 4px;
+                                    transition: all 0.3s ease;
+                                    "
+                                        onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
+                                        onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
+                                        <i class="ti-eye"></i> Cek Detail
+                                    </a>
+
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Medium%20bus%2035%20Seat%20PO%20Lorena.%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;

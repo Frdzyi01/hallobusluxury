@@ -146,7 +146,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('list-po.po-bus-standar.hi-ace-standar') }}">HI-Ace Standar</a></h3>
+                                <h3><a href="{{ route('bus.standar.hi-ace-standar') }}">HI-Ace Standar</a></h3>
                                 <p class="deskripsi-bus">
                                     Kendaraan kompak yang nyaman dengan AC dingin, seat empuk,
                                     dan bagasi memadai. Dilengkapi dengan APAR dan pemecah
@@ -154,7 +154,7 @@
                                     grup kecil dengan mobilitas tinggi.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.hi-ace-standar') }}"
+                                    <a href="{{ route('bus.standar.hi-ace-standar') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -165,7 +165,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> List PO HI-Ace Standar
+                                        <i class="ti-eye"></i> Sewa HI-Ace Standar
                                     </a>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
                                     alt="Medium Bus Long" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('list-po.po-bus-standar.elf-standar-18-seat') }}">Elf Standar 18
+                                <h3><a href="{{ route('bus.standar.elf-standar-18-seat') }}">Elf Standar 18
                                         Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Kendaraan kompak yang nyaman dengan AC dingin, seat empuk, Karoke, musik, TV android
@@ -185,7 +185,7 @@
                                     grup kecil dengan mobilitas tinggi.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.elf-standar-18-seat') }}"
+                                    <a href="{{ route('bus.standar.elf-standar-18-seat') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -196,7 +196,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> List PO Elf Standar 18 Seat
+                                        <i class="ti-eye"></i> Sewa Elf Standar 18 Seat
                                     </a>
                                 </div>
                             </div>

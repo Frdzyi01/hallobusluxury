@@ -20,7 +20,7 @@
                                     alt="Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
-                                <h3><a href="{{ route('bus.luxury.bigbus') }}">Big Bus 45 Seat</a></h3>
+                                <h3><a href="{{ route('list-po.po-bus-luxury.big-bus-45-seat') }}">Big Bus 45 Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus mewah berkapasitas 45 seat dengan fasilitas lengkap untuk kenyamanan perjalanan
                                     jarak jauh. Dilengkapi dengan AC double blower, reclining seat ergonomis, entertainment
@@ -28,7 +28,7 @@
                                     seatbelt.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('bus.luxury.bigbus') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.big-bus-45-seat') }}"
                                         style="
                                         display: inline-block;
                                         padding: 8px 15px;
@@ -39,23 +39,10 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
+                                        <i class="ti-eye"></i> List PO Big Bus Luxury 45 Seat
                                     </a>
 
-                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20big%20bus%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
-                                        style="
-                                        display: inline-block;
-                                        padding: 8px 15px;
-                                        margin-left: 10px;
-                                        background: #a07f56;
-                                        color: white;
-                                        border-radius: 4px;
-                                        transition: all 0.3s ease;
-                                    "
-                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
-                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
-                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
-                                    </a>
+                                 
                                 </div>
                             </div>
                         </div>
@@ -83,7 +70,7 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Cek Detail
+                                        <i class="ti-eye"></i> Sewa Hi Ace Premio
                                     </a>
 
                                     <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20Hi-Ace%20Premio%20Luxury%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"

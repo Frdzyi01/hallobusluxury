@@ -165,7 +165,22 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Sewa HI-Ace Standar
+                                        <i class="ti-eye"></i> Sewa HI-Ace 
+                                    </a>
+
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20big%20bus%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        style="
+                                        display: inline-block;
+                                        padding: 8px 15px;
+                                        margin-left: 10px;
+                                        background: #a07f56;
+                                        color: white;
+                                        border-radius: 4px;
+                                        transition: all 0.3s ease;
+                                    "
+                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
+                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
+                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
                                     </a>
                                 </div>
                             </div>
@@ -196,7 +211,22 @@
                                     "
                                         onmouseover="this.style.background='#e0e0e0'; this.style.color='#000';"
                                         onmouseout="this.style.background='#f5f5f5'; this.style.color='#333';">
-                                        <i class="ti-eye"></i> Sewa Elf Standar 18 Seat
+                                        <i class="ti-eye"></i> Sewa Elf 18 Seat
+                                    </a>
+
+                                    <a href="https://wa.me/6281111830302?text=Hallo%20Bus%20Luxury,%20saya%20ingin%20pesan%20big%20bus%20(45Seat).%20Bisa%20diberi%20informasi%20lebih%20lanjut?"
+                                        style="
+                                        display: inline-block;
+                                        padding: 8px 15px;
+                                        margin-left: 10px;
+                                        background: #a07f56;
+                                        color: white;
+                                        border-radius: 4px;
+                                        transition: all 0.3s ease;
+                                    "
+                                        onmouseover="this.style.background='#8a6d3b'; this.style.color='#fff';"
+                                        onmouseout="this.style.background='#A07F56'; this.style.color='white';">
+                                        <i class="ti-shopping-cart"></i> Pesan Sekarang
                                     </a>
                                 </div>
                             </div>

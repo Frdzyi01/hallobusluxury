@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'List Po Big Bus 45 Seat - HalloBus Luxury')
+@section('title', 'List Po Big Bus 45 Luxury Seat - HalloBus Luxury')
 
 
 @section('Title-Head', 'Armada Kami')
-@section('Title-Sub', 'List List PO Big Bus 45 Seat')
+@section('Title-Sub', 'List List PO Big Bus 45 Luxury Seat')
 @section('content')
 
     <!-- start wpo-shop-section -->
@@ -16,12 +16,12 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/bus-sinar-jaya/medium-bus-31.png') }}"
-                                    alt="PO Sinar Jaya - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="PO Sinar Jaya - Big Bus 45 Luxury Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3><a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-sinar-jaya') }}">PO
-                                        Sinar Jaya - Big Bus 45 Seat</a></h3>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-sinar-jaya') }}">PO
+                                        Sinar Jaya - Big Bus 45 Luxury Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari PO Sinar Jaya dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -29,7 +29,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-sinar-jaya') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-sinar-jaya') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -63,12 +63,13 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/bus-medium-30seact/busmedium30seat.jpg') }}"
-                                    alt="PO Putra Tidar - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="PO Putra Tidar - Big Bus 45 Luxury Seat"
+                                    style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3> <a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-putra-tidar') }}">PO
-                                        Putra Tidar - Big Bus 45 Seat</a></h3>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-putra-tidar') }}">PO
+                                        Putra Tidar - Big Bus 45 Luxury Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari PO Putra Tidar dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -76,7 +77,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-putra-tidar') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-putra-tidar') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -112,12 +113,12 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/bhaladika/mediumbus-31seat.png') }}"
-                                    alt="PO Bhaladika - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="PO Bhaladika - Big Bus 45 Luxury Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3><a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-bhaladika') }}">PO
-                                        Bhaladika - Big Bus 45 Seat</a></h3>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bhaladika') }}">PO
+                                        Bhaladika - Big Bus 45 Luxury Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari PO Bhaladika dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -125,7 +126,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-bhaladika') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bhaladika') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -159,12 +160,13 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/white-horse/mediumbus-31seat.webp') }}"
-                                    alt="PO White Horse - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="PO White Horse - Big Bus 45 Luxury Seat"
+                                    style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3><a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-white-horse') }}">PO
-                                        White Horse - Big Bus 45 Seat</a></h3>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-white-horse') }}">PO
+                                        White Horse - Big Bus 45 Luxury Seat</a></h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari PO White Horse dengan fasilitas lengkap termasuk AC dingin,
                                     reclining seat, LCD TV, dan bagasi luas. Dilengkapi dengan
@@ -172,7 +174,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-white-horse') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-white-horse') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -206,11 +208,11 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/BusBlueStar/mediumbus-31seat.png') }}"
-                                    alt="Bus Blue Star - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="Bus Blue Star - Big Bus 45 Luxury Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3><a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-blue-star') }}">Bus
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-blue-star') }}">Bus
                                         Blue Star - Big Bus
                                         45 Seat</a></h3>
                                 <p class="deskripsi-bus">
@@ -220,7 +222,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-blue-star') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-blue-star') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -254,12 +256,12 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/starbus/mediumbus-31seat.jpg') }}"
-                                    alt="Bus Starbus - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="Bus Starbus - Big Bus 45 Luxury Seat" style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3><a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-starbus') }}">PO
-                                        Bus Starbus - Big Bus 45 Seat</a>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-starbus') }}">PO
+                                        Bus Starbus - Big Bus 45 Luxury Seat</a>
                                 </h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari Bus Starbus dengan fasilitas lengkap termasuk AC dingin,
@@ -268,7 +270,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-starbus') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-starbus') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -303,11 +305,12 @@
                         <div class="grid">
                             <div class="img-holder">
                                 <img src="{{ asset('barise/assets/images/bus-bin-ilyas/mediumbus-31seat.png') }}"
-                                    alt="Bus Bin Ilyas - Big Bus 45 Seat" style="height: 280px; object-fit: cover" />
+                                    alt="Bus Bin Ilyas - Big Bus 45 Luxury Seat"
+                                    style="height: 280px; object-fit: cover" />
                             </div>
                             <div class="details">
                                 <h3> <a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-bin-ilyas') }}">Bus
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bin-ilyas') }}">Bus
                                         Bin Ilyas - Big Bus
                                         45 Seat</a></h3>
                                 <p class="deskripsi-bus">
@@ -317,7 +320,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-bin-ilyas') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bin-ilyas') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -357,8 +360,8 @@
                             <div class="details">
                                 <h3>
                                     <a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-big-bird') }}">Bus
-                                        Big Bird - Big Bus 45 Seat</a>
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-big-bird') }}">Bus
+                                        Big Bird - Big Bus 45 Luxury Seat</a>
                                 </h3>
                                 <p class="deskripsi-bus">
                                     Bus nyaman dari Rejeki Gemilang dengan fasilitas lengkap termasuk AC dingin,
@@ -367,7 +370,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-big-bird') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-big-bird') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;
@@ -407,7 +410,7 @@
                             Å <div class="details">
                                 <h3>
                                     <a
-                                        href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-rejeki-gemilang') }}">PO
+                                        href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-rejeki-gemilang') }}">PO
                                         Rejeki Gemilang - Big Bus
                                         45 Seat</a>
                                 </h3>
@@ -418,7 +421,7 @@
                                     untuk perjalanan jarak menengah dengan kapasitas optimal.
                                 </p>
                                 <div class="add-to-cart">
-                                    <a href="{{ route('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-rejeki-gemilang') }}"
+                                    <a href="{{ route('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-rejeki-gemilang') }}"
                                         style="
                                     display: inline-block;
                                     padding: 8px 15px;

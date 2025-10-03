@@ -40,7 +40,6 @@ Route::get('/armada/bus-vip', [BusVIPController::class, 'index'])->name('bus.vip
 
 
 // Halaman Armada Detail Bus Luxury
-Route::get('/armada/bus-luxury/hi-ace-premio-luxury', [BusLuxuryController::class, 'hiAcePremioLuxury'])->name('bus.luxury.hiace');
 Route::get('/armada/bus-luxury/big-bus-45seat', [BusLuxuryController::class, 'bigBus45Seat'])->name('bus.luxury.bigbus');
 
 // Halaman Armada Detail Bus VIP
@@ -79,6 +78,7 @@ Route::get('list-po/po-bus-standar/elf-standar-18-seat', [listpostandarControlle
 Route::get('list-po/po-bus-standar/big-bus-50-seat-2-2', [listpostandarController::class, 'bigBus50Seat22'])->name('list-po.po-bus-standar.big-bus-50-seat-2-2');
 Route::get('list-po/po-bus-standar/big-bus-42-45-seat', [listpostandarController::class, 'bigBus42_45Seat'])->name('list-po.po-bus-standar.big-bus-42-45-seat');
 
+
 //detail bus standar medium 31 seat
 Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-sinar-jaya', [listpostandarController::class, 'detailMediumBus31SeatSinarJaya'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-sinar-jaya');
 Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-big-bird', [listpostandarController::class, 'detailMediumBus31SeatBigBird'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-big-bird');
@@ -88,7 +88,7 @@ Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-b
 Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-starbus', [listpostandarController::class, 'detailMediumBus31SeatStarbus'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-starbus');
 Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-bin-ilyas', [listpostandarController::class, 'detailMediumBus31SeatBinIlyas'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bin-ilyas');
 Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-putra-tidar', [listpostandarController::class, 'detailMediumBus31SeatPutraTidar'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-putra-tidar');
-Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-bus-rejeki-gemilang', [listpostandarController::class, 'detailMediumBus31SeatBusRejekiGemilang'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-bus-rejeki-gemilang');
+Route::get('list-po/po-bus-standar/detail-bus-31-seat/detail-medium-bus-31seat-rejeki-gemilang', [listpostandarController::class, 'detailMediumBus31SeatRejekiGemilang'])->name('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-bus-31seat-rejeki-gemilang');
 
 
 //detail bus standar medium 35 seat
@@ -145,3 +145,63 @@ Route::get('list-po/po-bus-standar/detail-big-bus-42-45-seat/detail-big-bus-42-4
 Route::get('list-po/po-bus-standar/detail-big-bus-42-45-seat/detail-big-bus-42-45seat-bin-ilyas', [listpostandarController::class, 'detailBigBus42_45SeatBinIlyas'])->name('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-bin-ilyas');
 Route::get('list-po/po-bus-standar/detail-big-bus-42-45-seat/detail-big-bus-42-45seat-putra-tidar', [listpostandarController::class, 'detailBigBus42_45SeatPutraTidar'])->name('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-putra-tidar');
 Route::get('list-po/po-bus-standar/detail-big-bus-42-45-seat/detail-big-bus-42-45seat-rejeki-gemilang', [listpostandarController::class, 'detailBigBus42_45SeatRejekiGemilang'])->name('list-po.po-bus-standar.detail-big-bus-42-45-seat.detail-big-bus-42-45seat-rejeki-gemilang');
+
+
+// Halaman List Po Luxury
+Route::get('list-po/po-bus-luxury/big-bus-45-seat', [listpostandarController::class, 'bigBus45Seat'])->name('list-po.po-bus-luxury.big-bus-45-seat');
+
+//detail big bus 45 seat luxury
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-sinar-jaya', [listpostandarController::class, 'detailBigBus45SeatSinarJaya'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-sinar-jaya');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-big-bird', [listpostandarController::class, 'detailBigBus45SeatBigBird'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-big-bird');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-bhaladika', [listpostandarController::class, 'detailBigBus45SeatBhaladika'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bhaladika');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-white-horse', [listpostandarController::class, 'detailBigBus45SeatWhiteHorse'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-white-horse');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-blue-star', [listpostandarController::class, 'detailBigBus45SeatBusBlueStar'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-blue-star');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-starbus', [listpostandarController::class, 'detailBigBus45SeatStarbus'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-starbus');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-bin-ilyas', [listpostandarController::class, 'detailBigBus45SeatBinIlyas'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bin-ilyas');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-putra-tidar', [listpostandarController::class, 'detailBigBus45SeatPutraTidar'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-putra-tidar');
+Route::get('list-po/po-bus-luxury/detail-big-bus-45-seat/detail-big-bus-45seat-rejeki-gemilang', [listpostandarController::class, 'detailBigBus45SeatRejekiGemilang'])->name('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-rejeki-gemilang'); 
+
+// halaman hi-ace premio
+Route::get('/armada/bus-luxury/hi-ace-premio-luxury', [BusLuxuryController::class, 'hiAcePremioLuxury'])->name('bus.luxury.hiace');
+
+// halaman big bus vip 28-30 seat
+Route::get('list-po/po-bus-vip/big-bus-vip-28-30-seat', [listpostandarController::class, 'bigBusVip28_30Seat'])->name('list-po.po-bus-vip.big-bus-vip-28-30-seat');
+
+//detail big bus vip 28-30 seat
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-sinar-jaya', [listpostandarController::class, 'detailBigBusVip28_30SeatSinarJaya'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-sinar-jaya');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-big-bird', [listpostandarController::class, 'detailBigBusVip28_30SeatBigBird'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-big-bird');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-bhaladika', [listpostandarController::class, 'detailBigBusVip28_30SeatBhaladika'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-bhaladika');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-white-horse', [listpostandarController::class, 'detailBigBusVip28_30SeatWhiteHorse'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-white-horse');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-blue-star', [listpostandarController::class, 'detailBigBusVip28_30SeatBusBlueStar'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-blue-star');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-starbus', [listpostandarController::class, 'detailBigBusVip28_30SeatStarbus'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-starbus');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-bin-ilyas', [listpostandarController::class, 'detailBigBusVip28_30SeatBinIlyas'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-bin-ilyas');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-putra-tidar', [listpostandarController::class, 'detailBigBusVip28_30SeatPutraTidar'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-putra-tidar');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-28-30-seat/detail-big-bus-vip-28-30seat-rejeki-gemilang', [listpostandarController::class, 'detailBigBusVip28_30SeatRejekiGemilang'])->name('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-rejeki-gemilang');
+
+// halaman big bus vip 18 pax
+Route::get('list-po/po-bus-vip/big-bus-18-pax', [listpostandarController::class, 'bigBusVip18Pax'])->name('list-po.po-bus-vip.big-bus-18-pax'); 
+
+//detail big bus vip 18 pax
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-sinar-jaya', [listpostandarController::class, 'detailBigBusVip18PaxSinarJaya'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-sinar-jaya');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-big-bird', [listpostandarController::class, 'detailBigBusVip18PaxBigBird'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-big-bird');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-bhaladika', [listpostandarController::class, 'detailBigBusVip18PaxBhaladika'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-bhaladika');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-white-horse', [listpostandarController::class, 'detailBigBusVip18PaxWhiteHorse'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-white-horse');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-blue-star', [listpostandarController::class, 'detailBigBusVip18PaxBusBlueStar'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-blue-star');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-starbus', [listpostandarController::class, 'detailBigBusVip18PaxStarbus'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-starbus');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-bin-ilyas', [listpostandarController::class, 'detailBigBusVip18PaxBinIlyas'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-bin-ilyas');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-putra-tidar', [listpostandarController::class, 'detailBigBusVip18PaxPutraTidar'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-putra-tidar');
+Route::get('list-po/po-bus-vip/detail-big-bus-18-pax/detail-big-bus-18pax-rejeki-gemilang', [listpostandarController::class, 'detailBigBusVip18PaxRejekiGemilang'])->name('list-po.po-bus-vip.detail-big-bus-18-pax.detail-big-bus-18pax-rejeki-gemilang');    
+
+// halaman big bus vip 21 seat konfigurasi 2 - 1
+Route::get('list-po/po-bus-vip/big-bus-vip-21-seat-konfigurasi-2-1', [listpostandarController::class, 'bigBusVip21SeatKonfigurasi2_1'])->name('list-po.po-bus-vip.big-bus-vip-21-seat-konfigurasi-2-1');
+
+//detail big bus vip 21 seat konfigurasi 2 - 1
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-sinar-jaya', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1SinarJaya'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-sinar-jaya');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-big-bird', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1BigBird'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-big-bird');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-bhaladika', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1Bhaladika'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-bhaladika');   
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-white-horse', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1WhiteHorse'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-white-horse');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-blue-star', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1BusBlueStar'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-blue-star');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-starbus', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1Starbus'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-starbus');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-bin-ilyas', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1BinIlyas'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-bin-ilyas');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-putra-tidar', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1PutraTidar'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-putra-tidar');
+Route::get('list-po/po-bus-vip/detail-big-bus-vip-21-seat-konfigurasi-2-1/detail-big-bus-vip-21-seat-konfigurasi-2-1-rejeki-gemilang', [listpostandarController::class, 'detailBigBusVip21SeatKonfigurasi2_1RejekiGemilang'])->name('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-rejeki-gemilang');

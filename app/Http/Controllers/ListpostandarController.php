@@ -120,9 +120,9 @@ class ListpostandarController extends Controller
     {
       return view('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-31seat-putra-tidar');
     }
-    public function detailMediumBus31SeatBusRejekiGemilang()
+    public function detailMediumBus31SeatRejekiGemilang()
     {
-      return view('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-31seat-bus-rejeki-gemilang');
+      return view('list-po.po-bus-standar.detail-bus-31-seat.detail-medium-31seat-rejeki-gemilang');
     }
 
         // conteoller medium bus 35 seat
@@ -325,6 +325,183 @@ class ListpostandarController extends Controller
     {
       return view('list-po.po-bus-standar.detail-big-bus-50-seat-2-2.detail-big-bus-50seat-2-2-rejeki-gemilang');
     }
+
+    // Halaman List Po Luxury
+    public function bigBus45Seat()
+    {
+      return view('list-po.po-bus-luxury.big-bus-45-seat'); 
+    }
+
+    // detail bus luxury big bus 45 seat
+    public function detailBigBus45SeatSinarJaya()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-sinar-jaya');
+    }
+    public function detailBigBus45SeatBigBird()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-big-bird');  
+    }
+    public function detailBigBus45SeatBhaladika()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bhaladika');
+    }
+    public function detailBigBus45SeatWhiteHorse()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-white-horse'); 
+    }
+    public function detailBigBus45SeatBusBlueStar()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bus-blue-star'); 
+    }
+    public function detailBigBus45SeatStarbus()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-starbus');
+    } 
+    public function detailBigBus45SeatBinIlyas()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-bin-ilyas');
+    }
+    public function detailBigBus45SeatPutraTidar()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-putra-tidar');
+    }
+    public function detailBigBus45SeatRejekiGemilang()
+    {
+      return view('list-po.po-bus-luxury.detail-big-bus-45-seat.detail-big-bus-45seat-rejeki-gemilang');
+    } 
     
+
+    // halaman list po vip
+    public function bigBusVip28_30Seat()
+    {
+      return view('list-po.po-bus-vip.big-bus-vip-28-30-seat'); 
+    }
+
+    // detail bus vip big bus 28 - 30 seat
+    public function detailBigBusVip28_30SeatSinarJaya()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-sinar-jaya');
+    }
+    public function detailBigBusVip28_30SeatBigBird()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-big-bird');  
+    }
+    public function detailBigBusVip28_30SeatBhaladika()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-bhaladika');
+    } 
+    public function detailBigBusVip28_30SeatWhiteHorse()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-white-horse'); 
+    }
+    public function detailBigBusVip28_30SeatBusBlueStar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-bus-blue-star'); 
+    }
+    public function detailBigBusVip28_30SeatStarbus()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-starbus');
+    } 
+    public function detailBigBusVip28_30SeatBinIlyas()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-bin-ilyas');
+    }
+    public function detailBigBusVip28_30SeatPutraTidar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-putra-tidar');
+    }
+    public function detailBigBusVip28_30SeatRejekiGemilang()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-28-30-seat.detail-big-bus-vip-28-30seat-rejeki-gemilang');
+    }    
+    
+    // halaman list po vip big bus 18 pax
+    public function bigBusVip18Pax()
+    {
+      return view('list-po.po-bus-vip.big-bus-18-pax'); 
+    }
+
+    // detail bus vip big bus 18 pax
+    public function detailBigBusVip18PaxSinarJaya()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-sinar-jaya');
+    }
+    public function detailBigBusVip18PaxBigBird()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-big-bird');  
+    }
+    public function detailBigBusVip18PaxBhaladika()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-bhaladika');
+    } 
+    public function detailBigBusVip18PaxWhiteHorse()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-white-horse'); 
+    }
+    public function detailBigBusVip18PaxBusBlueStar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-bus-blue-star'); 
+    }
+    public function detailBigBusVip18PaxStarbus()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-starbus');
+    } 
+    public function detailBigBusVip18PaxBinIlyas()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-bin-ilyas');
+    }
+    public function detailBigBusVip18PaxPutraTidar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-putra-tidar');
+    }
+    public function detailBigBusVip18PaxRejekiGemilang()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-18-pax.detail-big-bus-vip-18pax-rejeki-gemilang');   
+    }
+
+    // halaman list po vip big bus 21 seat konfigurasi 2-1
+    public function bigBusVip21SeatKonfigurasi2_1()
+    {
+      return view('list-po.po-bus-vip.big-bus-vip-21-seat-konfigurasi-2-1'); 
+    } 
+
+    // detail bus vip big bus 21 seat konfigurasi 2-1
+    public function detailBigBusVip21SeatKonfigurasi2_1SinarJaya()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-sinar-jaya');
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1BigBird()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-big-bird');  
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1Bhaladika()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-bhaladika');
+    } 
+    public function detailBigBusVip21SeatKonfigurasi2_1WhiteHorse()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-white-horse'); 
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1BusBlueStar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-bus-blue-star'); 
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1Starbus()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-starbus');
+    } 
+    public function detailBigBusVip21SeatKonfigurasi2_1BinIlyas()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-bin-ilyas');
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1PutraTidar()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-putra-tidar');
+    }
+    public function detailBigBusVip21SeatKonfigurasi2_1RejekiGemilang()
+    {
+      return view('list-po.po-bus-vip.detail-big-bus-vip-21-seat-konfigurasi-2-1.detail-big-bus-vip-21-seat-konfigurasi-2-1-rejeki-gemilang');   
+    } 
+      
 }
 
